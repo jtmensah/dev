@@ -5,7 +5,7 @@ from tkinter import *
 import pyautogui
 
 running = True
-
+# Mouse movement method
 def mouse_movement():
     if running:
         x = random.randint(0,500)
